@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main(){
+	
+	int Money;
+	printf ("Please write amount of money : " );
+	scanf("%d",&Money);
+	
+	printf ("It has %d piece of 100$ \n" ,Money/100);
+	Money%=100;
+	printf ("It has %d piece of 50$ \n" ,Money/50);
+	Money%=50;
+	printf ("It has %d piece of 20$ \n" ,Money/20);
+	Money%=20;
+	printf ("It has %d piece of 10$ \n" ,Money/10);
+	Money%=10;
+	printf ("It has %d piece of 5$ \n" ,Money/5);
+	Money%=5;
+	printf ("It has %d piece of 1$ \n" ,Money/1);
+	
+	
+	
+	
+	
+	return 0;
+}
